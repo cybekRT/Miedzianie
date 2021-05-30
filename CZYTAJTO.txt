@@ -1,0 +1,79 @@
+================================================================================
+0. Wymagania sprzętowe
+================================================================================
+
+Brak wymagań, jak sie uruchomi to chyba zadziała~!
+
+================================================================================
+1. O grze
+================================================================================
+
+Gra powstała na konkurs miedzjam.pl
+Ponieważ KGHM ma 60 lat, tak samo ta gra nawiązuje i ma w sercu
+przeszłość, a jednocześnie teraźniejszość. Połączenie tego co dawne,
+wraz z ciągłym rozwojem i dążeniem do doskonałości daje niespodziewane efekty.
+
+================================================================================
+2. Fabuła
+================================================================================
+
+W dawnych czasach, gdy gatunek ludzki jeszcze istniał, dużo ludzi
+interesowało się nanorobotami. Ciekawość ta, przyniosła dramatyczne
+konsekwencje.
+
+Gdy roboty opanowały świat i wyniszczyły gatunek ludzki, spokój
+bynajmniej nie zapanował na świecie...
+Roboty podzieliły się między sobą i zaczęły walkę.
+
+Należysz do plemienia Miedzian, którego głównym wrogiem są Oksygeni.
+Stań do walki i pokonaj swoich wrogów~!
+
+================================================================================
+3. Sterowanie i przebieg gry
+================================================================================
+
+Głównym budynkiem służącym do tworzenia jednostek jest MCU.
+Aby mogło produkować elektrony, które będą walczyły, musi mieć zasilanie
+oraz uziemienie.
+
+Elektrony potrafią atakować oraz zbierać miedź z pozostawionych komponentów.
+Miedź jest potrzebna, aby budować budynki i jednostki.
+
+LPM             - zaznaczenie jednostki
+PPM             - wykonanie akcji przez jednostkę:
+  M             - ruch
+  A             - atakowanie
+  G             - zbieranie surowców
+  
+Strzałki        - ruch kamery
+
+Budynki:
+- Ścieżki       - Pozwalają podłączyć zasilanie i masę do MCU.
+                  Zwarcie sprawi, że wszystkie ścieżki się przepalą,
+                  a zasilanie i uziemienie zostaną osłabione.
+- Zasilanie     - Zasila
+- Uziemienie    - Uziemia
+- MCU           - Główny budynek
+- Składowisko   - Zbiór starych, uszkodzonych komponentów,
+                  z których można odzyskać miedź.
+                  
+Gra kończy się, gdy którakolwiek z frakcji utraci wszystkie swoje jednostki.
+Budynki nie mają wpływu na wynik walki, dlatego nie pozwól, abyś stracił
+wszystkie swoje elektrony.
+
+================================================================================
+4. Autor
+================================================================================
+
+Code & Gfx & Sfx:   cybek
+Music:              ...
+
+================================================================================
+5. Wykorzystane biblioteki
+================================================================================
+
+- SDL
+- SDL_image
+- SDL_mixer
+- SDL_ttf
+- DejaVu fonts -> https://dejavu-fonts.github.io/
